@@ -1,0 +1,92 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+#upper{
+    background-image: url('contact_tushar.png');
+    background-size: 100% 100%;
+    height: 300px;
+    margin-top: 25px;
+}
+#contact_up{
+    font-size: x-large;
+    padding-top: 4%;
+    padding-left: 8%;
+}
+#contact_up h1{
+    padding: 3px;
+    color: white;
+}
+#contact_up p{
+    color: rgb(224, 222, 222);
+}
+#place img{
+    height: 15px;
+    width: 15px;
+}
+#place{
+    display: flex;
+    padding: 15px 4px;
+}
+section{
+    padding-left: 9%;
+    padding-top: 5%;
+    margin-right: 50%;
+}
+section h2{
+    padding-top: 6px;
+    padding-bottom: 20px;
+}
+
+
+aside{
+    background-color: rgb(22, 51, 75);
+    width: 30%;
+    height: 40%;
+    color: white;
+    margin-top: 6%;
+    padding: 30px 20px;
+    position: absolute;
+    margin-left: 50%;
+}
+aside p{
+    padding: 10px 0px;
+    color: rgb(224, 222, 222);
+}
+#detail{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+#detail input{
+    color: white;
+    background-color: rgb(22, 51, 75);
+    outline: none;
+    border: none;
+    padding: 10px 0px;
+    margin: 3px 0px;
+    border-bottom: 2px solid rgb(184, 184, 184);
+    }
+#detail ::placeholder{
+    color: white;
+}
+#btn{
+    color: aliceblue;
+    border: none;
+
+}
+#btn:hover{
+    cursor: pointer;
+    color: rgb(205, 231, 255);
+} 
+#mid{
+    display: flex;
+    justify-content: space-around;
+}
+
+#maps img{
+    width: 100%;
+    padding-bottom: 25px;
+}

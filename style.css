@@ -1,0 +1,323 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+#navbar{
+    background-color: rgb(22, 51, 75);
+    background-image: url("hero\ page1.png");
+    background-size: cover;
+    height: 800px;
+}
+
+#meta_logo{
+    float: left;
+    width: 6%;
+    padding: 10px;
+}
+
+#proper_navbar{
+    display: flex;
+    justify-content: space-between;
+}
+@media(max-width: 615px){
+    #meta_logo{
+        width: 15%;
+        height: 15%;
+    }
+    #navbar_ul{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+}
+#navbar_ul li{
+    float: right;
+    padding: 14px 16px;
+    font-size:20px;
+    flex-wrap: wrap;
+} 
+#navbar li a {
+    text-decoration: none;
+    color: white;
+}
+
+#navbar_ul li a:hover{
+    color: bisque;
+    cursor: pointer;
+}
+
+
+
+#navbar_down{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-bottom: -10px;
+}
+#navbar_down img{
+    width: 6%;
+    height: 6%;
+}
+
+
+
+#content{
+    background-color: rgb(22, 51, 75);
+    color: white;
+    padding-bottom: 25px;
+    margin-top: 20px;
+}
+.content_top{
+    text-align: center;
+    padding-bottom: 4px;
+}
+#content_top_h1{
+    padding-top: 25px;
+}
+#boxes{
+    display: grid;
+    grid-template-columns: 17% 17% 17%;
+    grid-column-gap: 10%;
+    grid-row-gap: 30%;
+    justify-content: center;
+    padding: 55px 0px;
+    margin-bottom: 2%;
+}
+@media (max-width: 750px){
+    #boxes{
+        grid-row-gap: 10%;
+    }
+}
+@media (max-width: 450px){
+    #boxes{
+        grid-template-columns: 25% 25%;
+        grid-column-gap: 20%;
+        margin-bottom: 8%;
+    }
+    #box2,#box4{
+        display: none;
+    }
+}
+.box1{
+    text-align: center;
+}
+.upper_name{
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 4px;
+    color: rgb(178, 233, 244);
+}
+
+
+
+#followers{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+.subscribers{
+    flex-direction: column;
+    border-left: 2px solid purple;
+    padding-left: 5px;
+}
+@media (max-width: 500px){
+    #awards_won{
+        display: none;
+    }
+}
+@media (max-width: 350px){
+    #awards_won ,#ded_mem{
+        display: none;
+        padding-top: 4px;
+    }
+}
+
+
+#article{
+    background-color: rgb(22, 51, 75);
+    color: white;
+    padding-bottom: 20px;
+    /* margin-bottom: 10px; */
+}
+#art{
+    text-align: center;
+    padding-bottom: 4px;
+}
+#art_head{
+    padding-top: 25px;
+    font-size: xx-large;
+    padding-bottom: 5px;
+}
+#art_head_cont{
+    padding-bottom: 25px;
+}
+#reviews{
+    display: flex;
+    justify-content: space-evenly;
+}
+@media (max-width:430px){
+    #reviews{
+        display: block;
+    }
+    .review{
+        justify-content: center;
+        padding: 20px 0px;
+        margin: auto;
+    }
+}
+.review{
+    flex-direction: column;
+    text-align: center;
+    width: 250px;
+}
+.review img{
+    width: 100px;
+    height: 100px;
+    padding-bottom: 12px;
+}
+.review h3{
+     padding-bottom: 10px;
+     color: rgb(178, 233, 244);
+}
+
+
+
+.dev_stage{
+    text-align: center;
+    padding-bottom: 4px;
+}
+#numbers{
+    display: flex;
+    justify-content: space-around;
+}
+@media (max-width: 700px) {
+    #numbers{
+        display: grid;
+        grid-template-columns: 17% 17% 17%;
+        grid-column-gap: 10%;
+        grid-row-gap: 5%;
+        justify-content: space-around;
+    }
+}
+@media (max-width: 430px) {
+    #numbers{
+        display: block;
+    }
+}
+#stages h1{
+    padding-top: 20px;
+}
+.stage{
+    text-align: center;
+}
+.stage p{
+    width: 90%;
+    text-align: center;
+}
+
+#one{
+    color: rgb(221, 40, 221);
+}
+#two{
+    color: rgb(42, 200, 42);
+}
+#three{
+    color: rgb(77, 77, 246);
+}
+#four{
+    color: rgb(240, 130, 148);
+}
+#five{
+    color: rgb(255, 44, 44);
+}
+#six{
+    color: rgb(255, 92, 255);
+}
+
+
+#work{
+    background-color: rgb(22, 51, 75);
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+}
+.our_work{
+    text-align: center;
+    padding: 20px;
+}
+.our_work p{
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+#work img{
+    height: 100%;
+    width: 100%;
+}
+
+
+#signup_content{
+    text-align: center;
+    padding: 8px;
+}
+#signup_content p{
+    padding-bottom: 10px;
+}
+#box_last{
+    display: flex;
+    height: 45px;
+    justify-content: center;
+}
+#signup_text{
+    border-radius: 6px;
+    margin-right: 20px;
+    width: 78%;
+    padding-left: 20px;
+}
+
+#signup_btn{
+    width: 10%;
+    border-radius: 4px;
+    color: white;
+    background-color: rgb(216, 199, 7);
+    float: right;
+}
+#signup_btn:hover{
+    cursor: pointer;
+}
+#tandc{
+    font-size: smaller;
+    text-align: end;
+    padding-top: 30px;
+    margin-right: 10%;
+}
+
+
+
+#footer{
+    background-color: rgb(22, 51, 75);
+    color: white;
+}
+.footer{
+    text-align: center;
+    padding-top: 15px;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+.foot li{
+    list-style: none;
+    padding: 2%;
+}
+.line{
+    border-bottom: 2px solid white;
+}
+
+#footer_down{
+    padding: 10px 0px;
+    font-size: smaller;
+    text-align: center;
+}
